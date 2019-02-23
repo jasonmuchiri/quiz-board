@@ -1,11 +1,13 @@
 .well {
   color: blue;
+  font-size: 15px;
 }
 .jumbotron {
   text-align: center;
 }
 .p {
   background-color: #82E0AA;
+  font-size: 18px;
 }
 .pop {
   display:none;
