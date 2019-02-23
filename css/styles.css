@@ -5,9 +5,16 @@
   text-align: center;
 }
 .p {
-  background-color: #D5F5E3;
+  background-color: #82E0AA;
 }
 .pop {
   display:none;
-  color: #2874A6;  
+  color: #2874A6;
+  font-size: 20px;
+}
+body {
+  background-color: #D6EAF8;
+}
+#display {
+  font-size: 20px;
 }

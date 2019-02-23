@@ -11,6 +11,13 @@ $(document).ready(function(){
   var four = parseInt($("input:radio[name=four]:checked").val());
   var result = score(one, two, three, four);
   $("#display").text(result);
+  if (result > 80){
+    $("#display").text(result + ("~ You have passed excellently."));
+  }else if (result >= 50 && result <=80){
+    $("#display").text(result + ("~ You have fairly passed."));
+  }else if (result < 50){
+    $("#display").text(result + ("~ You have scored poorly and so please retake the test."));
+  }
  });
 });
 $(document).ready(function() {
