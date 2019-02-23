@@ -13,3 +13,8 @@ $(document).ready(function(){
   $("#display").text(result);
  });
 });
+$(document).ready(function() {
+  $("button").click(function() {
+    $(".pop").show();
+  });
+});
