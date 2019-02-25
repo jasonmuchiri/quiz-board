@@ -5,10 +5,10 @@ var score = function(one, two, three, four){
 $(document).ready(function(){
  $("#quiz").submit(function(event){
   event.preventDefault();
-  var one = parseInt($("input:radio[name=one]:checked").val());
-  var two = parseInt($("input:radio[name=two]:checked").val());
-  var three = parseInt($("input:radio[name=three]:checked").val());
-  var four = parseInt($("input:radio[name=four]:checked").val());
+  var one = parseInt($("input:radio[name=one]").val());
+  var two = parseInt($("input:radio[name=two]").val());
+  var three = parseInt($("input:radio[name=three]").val());
+  var four = parseInt($("input:radio[name=four]").val());
   var result = score(one, two, three, four);
   $("#display").text(result);
   if (result > 80){
